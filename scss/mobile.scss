@@ -1,0 +1,66 @@
+//mainheader
+#mainheader, #mainheader-2 {
+    .navbar {
+        .logo {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 2rem;
+        }
+        ul {
+            display: block;
+            text-align: center;
+        }
+        li {
+            margin: 2rem 0;
+            margin-left: 1rem;
+        }
+        .container {
+            display: block;
+        }
+    }
+    //showcase
+    #showcase {
+        .showcase-flex {
+            display: block;
+
+          h1 {
+            margin: 0 auto;
+            text-align: center;
+          }
+          .showcase-buttons {
+            display: block;
+            .btn {
+                margin-bottom: 2rem;
+            }
+          }
+           
+        }
+    }
+}
+
+//gifts
+#gifts {
+    .gift-flex {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        .box {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+//dinner
+#dinner, #gift, #show {
+    .dinner-flex, .gift-flex, .show-flex {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        p {
+            text-align: justify;
+            margin-bottom: 2rem;
+        }
+    }
+}
+

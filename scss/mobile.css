@@ -1,0 +1,49 @@
+#mainheader .navbar .logo, #mainheader-2 .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2rem;
+}
+#mainheader .navbar ul, #mainheader-2 .navbar ul {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar li, #mainheader-2 .navbar li {
+  margin: 2rem 0;
+  margin-left: 1rem;
+}
+#mainheader .navbar .container, #mainheader-2 .navbar .container {
+  display: block;
+}
+#mainheader #showcase .showcase-flex, #mainheader-2 #showcase .showcase-flex {
+  display: block;
+}
+#mainheader #showcase .showcase-flex h1, #mainheader-2 #showcase .showcase-flex h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader #showcase .showcase-flex .showcase-buttons, #mainheader-2 #showcase .showcase-flex .showcase-buttons {
+  display: block;
+}
+#mainheader #showcase .showcase-flex .showcase-buttons .btn, #mainheader-2 #showcase .showcase-flex .showcase-buttons .btn {
+  margin-bottom: 2rem;
+}
+
+#gifts .gift-flex {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#gifts .gift-flex .box {
+  margin-bottom: 2rem;
+}
+
+#dinner .dinner-flex, #dinner .gift-flex, #dinner .show-flex, #gift .dinner-flex, #gift .gift-flex, #gift .show-flex, #show .dinner-flex, #show .gift-flex, #show .show-flex {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#dinner .dinner-flex p, #dinner .gift-flex p, #dinner .show-flex p, #gift .dinner-flex p, #gift .gift-flex p, #gift .show-flex p, #show .dinner-flex p, #show .gift-flex p, #show .show-flex p {
+  text-align: justify;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=mobile.css.map */

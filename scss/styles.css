@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: auto;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+}
+
+.btn {
+  display: block;
+  padding: 10px 80px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: violet;
+}
+
+.bk {
+  background: red;
+}
+
+.title {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 3rem 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+#showcase-2 {
+  background: url("/img/no.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#mainheader {
+  background: url(/img/showcase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mainheader .navbar {
+  margin-bottom: 4rem;
+}
+#mainheader .navbar .logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+#mainheader .navbar ul {
+  display: flex;
+  margin-top: 3rem;
+}
+#mainheader .navbar li {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+#mainheader .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#mainheader #showcase .showcase-text {
+  margin-top: 10rem;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+#mainheader #showcase .showcase-text h1 {
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+#mainheader #showcase .showcase-text p {
+  color: #fff;
+  line-height: 40px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+#mainheader #showcase .showcase-text .button-1 {
+  margin: 0 auto;
+  padding: 10px 50px;
+  background: red;
+  border: 2px solid #fff;
+}
+#mainheader #showcase .showcase-flex h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+#mainheader #showcase .showcase-flex .btn {
+  background: red;
+}
+#mainheader #showcase .showcase-flex .showcase-buttons {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+#mainheader #showcase .showcase-flex .showcase-buttons .button-2 {
+  margin: 0 auto;
+  border: 2px solid #fff;
+  background: none;
+  cursor: pointer;
+}
+
+#mainheader-2 {
+  background: url(/img/no.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mainheader-2 .navbar .logo {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+#mainheader-2 .navbar ul {
+  display: flex;
+  margin-top: 3rem;
+}
+#mainheader-2 .navbar li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader-2 .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#no h1 {
+  text-align: center;
+  margin-top: 20rem;
+  margin-bottom: 19rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+#gifts {
+  margin-top: 3rem;
+}
+#gifts .gift-flex {
+  margin-bottom: 2rem;
+}
+#gifts .gift-flex .box-1 img {
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+#gifts .gift-flex .box-1 .btn {
+  display: block;
+  background: red;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#dinner .dinner-flex img, #dinner .show-flex img, #dinner .gift-flex img, #show .dinner-flex img, #show .show-flex img, #show .gift-flex img, #gift .dinner-flex img, #gift .show-flex img, #gift .gift-flex img {
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+  background: red;
+}/*# sourceMappingURL=styles.css.map */

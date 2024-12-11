@@ -8,8 +8,10 @@
 
 // Obtener el parámetro de la imagen y mostrarla
 const params = getQueryParams();
-if (params.img) {
+let imgUrl = params.img ? decodeURIComponent(params.img) : localStorage.getItem('savedImage');
+
+if (imgUrl) {
     const imgElement = document.createElement('img');
-    imgElement.src = decodeURIComponent(params.img);
+    imgElement.src = imgUrl;
     document.querySelector('.madre').appendChild(imgElement);
 }

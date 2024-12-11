@@ -12,7 +12,7 @@ async function getData() {
             
                 <div class="box box-1">
                     <img src="${element.strDrinkThumb}" alt="">
-                    <a href="${linksArr[index]}.html?img=${encodeURIComponent(element.strDrinkThumb)}" class="btn" onclick="saveImage('${element.strDrinkThumb}')">${namesArr[index]}</a>
+                    <a href="${linksArr[index]}.html?img=${encodeURIComponent(element.strDrinkThumb)}" class="btn" onclick="saveImage('${element.strDrinkThumb}', '${linksArr[index]}')">${namesArr[index]}</a>
                 </div>
             
             `)
@@ -21,8 +21,8 @@ async function getData() {
     });
 }
 
-function saveImage(imgUrl) {
-    localStorage.setItem('savedImage', imgUrl);
+function saveImage(imgUrl, page) {
+    localStorage.setItem(`savedImage_${page}`, imgUrl);
 }
 
 getData()

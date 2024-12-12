@@ -16,7 +16,7 @@ async function getData() {
                 </div>
             
             `)
-            const gift_flex = document.querySelector('.dinner-flex');
+            const gift_flex = document.querySelector('.gift-flex');
             gift_flex.append(box);
     });
 }

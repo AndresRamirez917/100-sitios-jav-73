@@ -198,6 +198,7 @@ img {
     margin-top: 3rem;      
     .gift-flex {
         margin-bottom: 2rem;
+
         .box-1 {
             img {
                 border-radius: 5px;
@@ -215,10 +216,12 @@ img {
 
 #dinner, #show, #gift {
     .dinner-flex, .show-flex, .gift-flex {
-        img {
-            border-radius: 5px;
-            margin-bottom: 3rem;
-        }
+            img {
+                width: 50%;
+                border-radius: 5px;
+                margin-bottom: 3rem;
+            }
+        
     }
 }
 

@@ -16,5 +16,5 @@ let imgUrl = params.img ? decodeURIComponent(params.img) : localStorage.getItem(
 if (imgUrl) {
     const imgElement = document.createElement('img');
     imgElement.src = imgUrl;
-    document.querySelector('.madre').appendChild(imgElement);
+    document.querySelector('.dinner-flex').appendChild(imgElement);
 }

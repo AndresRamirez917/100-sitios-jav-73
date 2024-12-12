@@ -197,6 +197,7 @@ img {
 }
 
 #dinner .dinner-flex img, #dinner .show-flex img, #dinner .gift-flex img, #show .dinner-flex img, #show .show-flex img, #show .gift-flex img, #gift .dinner-flex img, #gift .show-flex img, #gift .gift-flex img {
+  width: 50%;
   border-radius: 5px;
   margin-bottom: 3rem;
 }
